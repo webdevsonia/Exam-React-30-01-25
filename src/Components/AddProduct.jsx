@@ -52,9 +52,6 @@ const AddProduct = () => {
           error = "* Description must be at least 20 characters long";
         }
         break;
-        case "img":
-          if (!value) error = "* Image URL is required";
-          break;
       default:
         break;
     }
@@ -70,10 +67,6 @@ const AddProduct = () => {
         newErrors[field] = error;
       }
     });
-    const imgError = validateField('img');
-    if (imgError) {
-      newErrors.img = imgError;
-    }
 
     if (Object.keys(newErrors).length > 0) {
       setErrors(newErrors);
@@ -128,7 +121,6 @@ const AddProduct = () => {
                 onChange={handelChanged}
               />
             </Col>
-            {errors.img && <i style={{ color: "red" }}>{errors.img}</i>}
           </Form.Group>
 
           <Form.Group as={Row} className="mb-3">
