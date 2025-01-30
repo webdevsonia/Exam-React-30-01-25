@@ -1,0 +1,28 @@
+{
+  "product": [
+    {
+      "id": "624",
+      "name": "camera",
+      "image": "https://images.pexels.com/photos/90946/pexels-photo-90946.jpeg?cs=srgb&dl=pexels-madebymath-90946.jpg&fm=jpg",
+      "category": "guadget",
+      "price": "50000",
+      "description": "A camera is a device that captures light and records it as an image or video"
+    },
+    {
+      "id": "980",
+      "name": "serum",
+      "image": "https://images.unsplash.com/photo-1597354984706-fac992d9306f?q=80&w=1888&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "category": "makeup",
+      "price": "500",
+      "description": "Serum can refer to a clear liquid in blood or a cosmetic product for skin. "
+    },
+    {
+      "id": "781",
+      "name": "lotion ",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcCHjSg4cu4ZQiZgftq9nuNfyGzjUIWB0j8A&s",
+      "category": "forever product",
+      "price": "700",
+      "description": "a liquid, usually aqueous or sometimes alcoholic preparation containing insoluble material in the "
+    }
+  ]
+}
